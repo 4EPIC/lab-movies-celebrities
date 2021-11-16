@@ -1,0 +1,15 @@
+<h1>Celebrities</h1>
+<a href="/">Back to Index</a>
+<br />
+<a href="/celebrities/create">Create a new celebrity</a>
+
+<ul>
+  {{#each allCelebs}}
+    <li>
+      <p>Name: {{name}}</p>
+      <p>Occupation: {{occupation}}</p>
+      <p>Catch Phrase: {{catchPhrase}}</p>
+    </li>
+  {{/each}}
+  <br />
+</ul>
